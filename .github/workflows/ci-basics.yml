@@ -28,7 +28,6 @@ jobs:
   hello3:
     name: "Hello world 3"
     runs-on: "ubuntu-latest"
-    continue-on-error: true
     steps:
       - name: Validate composer.json and composer.lock
         run: composer validate --strict
